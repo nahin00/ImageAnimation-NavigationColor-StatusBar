@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Image Animation, Navigation Color, Status Bar
 //
-//  Created by Silicon Orchard Ltd on 3/8/17.
+//  Created by Nahin Ahmed on 3/8/17.
 //  Copyright © 2017 Nahin Ahmed. All rights reserved.
 //
 
@@ -17,6 +17,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        UIApplication.shared.statusBarStyle = .lightContent
+        
+        UINavigationBar.appearance().barTintColor = UIColor.black
+        UINavigationBar.appearance().titleTextAttributes = [NSForegroundColorAttributeName:UIColor.green]
+        UINavigationBar.appearance().tintColor = UIColor.green
+        
         return true
     }
 

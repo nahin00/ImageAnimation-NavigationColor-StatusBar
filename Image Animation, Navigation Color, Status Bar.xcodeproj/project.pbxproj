@@ -13,6 +13,9 @@
 		BC1729EE1E700EA900D60F61 /* Image_Animation__Navigation_Color__Status_Bar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BC1729EC1E700EA900D60F61 /* Image_Animation__Navigation_Color__Status_Bar.xcdatamodeld */; };
 		BC1729F01E700EA900D60F61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC1729EF1E700EA900D60F61 /* Assets.xcassets */; };
 		BC1729F31E700EA900D60F61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC1729F11E700EA900D60F61 /* LaunchScreen.storyboard */; };
+		BC1729FD1E700F4800D60F61 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = BC1729FA1E700F4800D60F61 /* 1.png */; };
+		BC1729FE1E700F4800D60F61 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = BC1729FB1E700F4800D60F61 /* 2.png */; };
+		BC1729FF1E700F4800D60F61 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = BC1729FC1E700F4800D60F61 /* 3.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		BC1729EF1E700EA900D60F61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC1729F21E700EA900D60F61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC1729F41E700EA900D60F61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC1729FA1E700F4800D60F61 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		BC1729FB1E700F4800D60F61 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		BC1729FC1E700F4800D60F61 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,7 @@
 			children = (
 				BC1729E51E700EA900D60F61 /* AppDelegate.swift */,
 				BC1729E71E700EA900D60F61 /* ViewController.swift */,
+				BC172A001E700F4B00D60F61 /* Images */,
 				BC1729E91E700EA900D60F61 /* Main.storyboard */,
 				BC1729EF1E700EA900D60F61 /* Assets.xcassets */,
 				BC1729F11E700EA900D60F61 /* LaunchScreen.storyboard */,
@@ -65,6 +72,16 @@
 				BC1729EC1E700EA900D60F61 /* Image_Animation__Navigation_Color__Status_Bar.xcdatamodeld */,
 			);
 			path = "Image Animation, Navigation Color, Status Bar";
+			sourceTree = "<group>";
+		};
+		BC172A001E700F4B00D60F61 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				BC1729FA1E700F4800D60F61 /* 1.png */,
+				BC1729FB1E700F4800D60F61 /* 2.png */,
+				BC1729FC1E700F4800D60F61 /* 3.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC1729F31E700EA900D60F61 /* LaunchScreen.storyboard in Resources */,
+				BC1729FD1E700F4800D60F61 /* 1.png in Resources */,
+				BC1729FE1E700F4800D60F61 /* 2.png in Resources */,
+				BC1729FF1E700F4800D60F61 /* 3.png in Resources */,
 				BC1729F01E700EA900D60F61 /* Assets.xcassets in Resources */,
 				BC1729EB1E700EA900D60F61 /* Main.storyboard in Resources */,
 			);
